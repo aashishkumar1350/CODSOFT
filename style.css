@@ -1,0 +1,66 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+body{
+    background: rgba(0, 0, 0, 0.7) url("https://static.vecteezy.com/system/resources/previews/037/245/808/non_2x/ai-generated-beautuful-fast-food-background-with-copy-space-free-photo.jpg") center center fixed;
+    background-blend-mode : darken;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo h2{
+    color : orangered;
+    margin-left : 20px;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    list-style: none;
+    color : white;
+    text-decoration: none;
+    padding: 4px;
+    
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.reserv{
+    background-color: orangered;
+    padding: 8px;
+}
+.content{
+    color : white;
+    top : 40%;
+    left : 30%;
+    position : absolute;
+}
+
+.content h3{
+    font-size : 20px;
+    margin-left : 30%;  
+    
+}
+
+.content h1{
+    font-size : 50px; 
+}
+.content p{
+    align-content: center;
+    margin-top : 10px;
+}
+
